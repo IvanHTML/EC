@@ -1,0 +1,23 @@
+@import 'reboot/bootstrap-reboot.min';
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+// font-family: 'Lato', sans-serif;
+// font-family: 'Raleway', sans-serif;
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 1172px;
+    margin: 0 auto;
+}
+
+@import 'blocks/header';
+@import 'blocks/content';
+@import 'blocks/buttons';
+@import 'blocks/order';
+@import 'blocks/footer';
+@import 'blocks/media';

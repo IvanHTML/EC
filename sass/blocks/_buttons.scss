@@ -1,0 +1,28 @@
+.btn {
+    width: 183px;
+    height: 43px;
+    left: 376px;
+    top: 604px;
+    background: #3E9CDC;
+    color: #fff;
+    border: 1px solid #FFFFFF;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+    text-transform: uppercase;
+    &.more {
+        color: #000;
+        background: #fff;
+        border: 1px solid #000;
+    }
+    &_order {
+        width: 370px;
+        height: 48px;
+        background: #3E9CDC;
+        border: 1px solid #FFFFFF;
+        border-radius: 4px;
+        display: block;
+        margin: 0 auto;
+        margin-top: 40px;
+    }
+}
